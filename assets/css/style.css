@@ -26,7 +26,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -54,14 +62,14 @@ h3 {
     font-family: var(--secondary-font);
 }
 
-/* grid visualisation CSS for testing */
+/* Services */
 
-/* .container,
-.row {
-    border: 2px solid black;
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
+#services .card {
+    margin-bottom: 1.5rem;
+}
