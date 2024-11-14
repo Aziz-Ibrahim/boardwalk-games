@@ -19,6 +19,9 @@
 
 body {
     font-family: var(--primary-font);
+}
+
+main {
     padding-top: 57.15px;
 }
 
